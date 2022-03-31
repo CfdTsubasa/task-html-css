@@ -24,6 +24,10 @@
     width: 100%;
   }
 
+  .content-guidance {
+    width: 70%;
+  }
+
   .annotation {
     margin-bottom: 30px;
     margin-top: 65px;
@@ -31,6 +35,78 @@
     color: #afafb0;
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  #about {
+    padding: 110px 0;
+    background-color: #f79214;
+    padding: 45px 0;
+    display: block;
+  }
+
+  .about-container {
+    align-items: baseline;
+    margin-left: 40px;
+    width: 100%;
+  }
+  .about-title {
+    text-align: left;
+  }
+  .about-content {
+    align-items: center;
+    margin-bottom: 60px;
+    width: 100%;
+    margin-bottom: 0;
+    width: 90%;
+  }
+
+  .about-content-button {
+    margin: 30px auto;
+    width: 30%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .overrall {
+    background-image: none;
+  }
+
+  .humberger-icon {
+    display: block;
+  }
+
+  #top {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    background-size: cover;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .top-image-mobile {
+    display: none;
+  }
+
+  .content-guidance {
+    width: 70%;
+  }
+
+  .annotation {
+    margin-top: -175px;
+  }
+
+  .content-container {
+    display: block;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 340px;
+    padding-top: 40px;
+    max-width: 1140px;
+    position: relative;
   }
 }
 
@@ -48,7 +124,29 @@
   }
 
   .top-image-mobile {
+    display: inline-block;
+  }
+
+  .content-achievement-item {
+    width: 100%;
+  }
+
+  .content-achievement-item:first-child {
+    width: 70%;
+  }
+
+  .content-achievement-item:last-child {
+    width: 70%;
+  }
+
+  .content-container {
     display: block;
+    text-align: center;
+    margin-top: -70px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1140px;
+    position: relative;
   }
 
   .content-title {
@@ -62,7 +160,7 @@
 
   .annotation {
     margin-bottom: 30px;
-    margin-top: 65px;
+    margin-top: 290px;
     font-size: 13px;
     color: #afafb0;
     margin-left: 30px;
@@ -84,7 +182,13 @@
   }
 
   .about-container {
+    align-items: center;
     width: 100%;
+  }
+
+  .about-title {
+    text-align: center;
+    font-size: 30px;
   }
   .about-content {
     align-items: center;
