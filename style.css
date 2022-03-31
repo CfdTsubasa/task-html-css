@@ -7,6 +7,7 @@ a {
   text-decoration: none;
   color: #000000;
 }
+
 .overrall {
   background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
   background-repeat: no-repeat;
@@ -28,6 +29,11 @@ a {
   object-fit: contain;
   width: 240px;
 }
+
+.header-logo:hover {
+  opacity: 0.7;
+}
+
 .humberger-icon {
   display: none;
 }
@@ -44,6 +50,10 @@ a {
   display: inline-block;
   margin: 0 20px;
   font-family: "Lato", sans-serif;
+}
+
+.nav-list-item:hover {
+  opacity: 80%;
 }
 
 .nav-list-item-en {
@@ -151,6 +161,10 @@ a {
   width: 65%;
 }
 
+.content-guidance-contact:hover {
+  opacity: 80%;
+}
+
 .content-guidance-download {
   align-items: center;
   background-color: #fff;
@@ -169,6 +183,10 @@ a {
   text-decoration: none;
   text-align: center;
   width: 35%;
+}
+
+.content-guidance-download:hover {
+  opacity: 80%;
 }
 
 .annotation {
@@ -238,6 +256,10 @@ a {
   text-decoration: none;
   text-align: center;
   width: 15%;
+}
+
+.about-content-button:hover {
+  opacity: 80%;
 }
 
 .about-content-en {
